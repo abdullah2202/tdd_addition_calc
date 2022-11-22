@@ -1,6 +1,6 @@
 
-function additionCalculator(a, b){
-   return a + b;
+function additionCalculator(...numbers){
+   return numbers.reduce((sum, item) => sum + item, 0);
 }
 
 module.exports = additionCalculator;

@@ -3,4 +3,5 @@ function additionCalculator(...numbers){
    return numbers.reduce((sum, item) => sum + item, 0);
 }
 
-module.exports = additionCalculator;
+// module.exports = additionCalculator;
+export default additionCalculator;
